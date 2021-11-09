@@ -3,7 +3,7 @@ import React from 'react'
 const PrivateLayout = () => {
     return (
         <div>
-            Private layout
+            Layout privado
         </div>
     )
 }

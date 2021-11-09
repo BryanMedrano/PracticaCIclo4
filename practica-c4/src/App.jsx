@@ -5,7 +5,8 @@ import Admin from './pages/Admin';
 import Index from './pages/Index';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './styles/estilos.css';
-import PublicLayout from "./layaout/PublicLayout";
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -13,9 +14,7 @@ function App() {
         <Route path='login' element={<Login/>}/>
         <Route path='registro' element={<Registro/>} />
         <Route path='admin' element={<Admin/>} />
-        <PublicLayout>
-        <Route path='/' element={<Index />} />
-        </PublicLayout>
+        <Route path='/' element={<Index /> } />
       </Routes>
     </BrowserRouter>
   );

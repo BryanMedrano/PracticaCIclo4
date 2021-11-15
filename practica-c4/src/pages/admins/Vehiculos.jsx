@@ -1,10 +1,13 @@
 import React from 'react'
 
-const vehiculos = () => {
+const Vehiculos = () => {
     return (
-       <div>Vehiculos</div>
+        <div>
+            vehiculos
+        </div>
     )
 }
 
-export default vehiculos
+export default Vehiculos
+
 

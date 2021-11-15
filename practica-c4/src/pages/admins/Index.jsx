@@ -3,10 +3,11 @@ import React from 'react'
 const Index = () => {
     return (
         <div>
-            Index del panel de admin
+            Index del panel del admin
         </div>
     )
 }
 
 export default Index
+
 
